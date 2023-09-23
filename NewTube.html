@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NewTube</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <style>
+      .video1 {
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(25,25,25,0.15);
+      }
+
+      .thumb {
+        margin-bottom: 0px;
+      }
+
+      .pic,.desc {
+        display: inline-block;
+      }
+
+      .pic {
+        width: 40px;
+        margin-right: 0;
+        vertical-align: top;
+      }
+
+      .desc {
+        width: 100%;
+        margin-left: px;
+        height: 100% ;
+
+      }
+
+      .thumbimg {
+        width: 100%;
+      }
+
+      .prof {
+        width: 40px;
+        border-radius: 50px;
+        margin-right: 0px;
+      }
+
+      .video-info {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+
+      .info{
+        margin-top: 0px;
+        margin-bottom: 0;
+        width: 100%;
+      }
+
+      .channel ,
+      .reach{
+        font-size: 12px;
+        color: rgb(96,96,96) ;
+      }
+
+      .channel {
+        margin-bottom: 0px;
+        margin-top: 5px;
+      }
+
+      .reach {
+        margin-top: 4px;
+        margin-bottom: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+      }
+
+      @media (max-width:1080px)
+      {
+        .grid{
+          grid-template-columns: 1fr 1fr;
+        
+        }
+      }
+
+      @media (max-width:688px)
+      {
+        .grid{
+          grid-template-columns: 1fr ;
+        }
+      }
+     
+      
+    </style>
+  </head>
+
+  <body>
+
+
+<div class="flex">
+
+  <div  class="right">
+    <img class="hamlogo" src="icons/hamburger-menu.svg">
+    <img class="youtubelogo" src="icons/youtube-logo.svg">
+  </div>
+
+  <div class="middle"> 
+    <input class="searchbar" input="text" placeholder="search"> 
+    <button class="searchbutt"> <img class="search" src="icons/search.svg"> </button>
+    <button class="micbutt"> <img class="mic" src="icons/voice-search-icon.svg"> </button>
+  </div>
+  
+  <div class="left">
+    <img class="upload" src="icons/upload.svg">
+    <img class="apps" src="icons/youtube-apps.svg">
+    <img class="notify" src="icons/notifications.svg">
+    <img class="mychannel" src="profiles/my-channel.jpeg">
+  </div>
+
+</div>
+
+<div class="sidebar">
+   <div class="sidebarlink"> <img src="icons/home.svg">
+    <div>Home</div>
+   </div>
+   <div class="sidebarlink"> <img src="icons/explore.svg"> 
+    <div>Explore</div>
+   </div>
+   <div class="sidebarlink"> <img src="icons/subscriptions.svg"> 
+    <div>Subscriptions</div>
+   </div>
+   <div class="sidebarlink"> <img src="icons/originals.svg"> 
+    <div>Orginals</div>
+   </div>
+   <div class="sidebarlink"> <img src="icons/youtube-music.svg"> 
+    <div>YouTUbe Music</div>
+   </div>
+   <div class="sidebarlink"> <img src="icons/library.svg"> 
+    <div>Library</div>
+   </div>
+
+</div>
+
+
+    <div class="grid">
+
+      <div class="video1">
+
+        <div class="thumb" > <img class="thumbimg" src="thumbnail/img6.webp"> </div>
+  
+        <div class="video-info">
+          <div class="pic">
+            <img class="prof" src="profiles/ganguva.jpg">
+          </div>
+          <div class="desc">
+            <p class="info">
+              Kanguva - Glimpse | Suriya, Disha Patani | Devi Sri Prasad | Siva | Studio Green | UV Creations 
+            </p>
+        
+            <p class="channel">
+              Saregama Tamil
+            </p>
+        
+            <p class="reach">
+              31,806,443 views &middot;7 days ago 
+            </p>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+      <div class="video1">
+  
+        <div class="thumb" > <img class="thumbimg" src="thumbnail/img5.webp"> </div>
+  
+        <div class="video-info">
+          <div class="pic">
+            <img class="prof" src="profiles/miller.jpg">
+          </div>
+          <div class="desc">
+            <p class="info">
+              CAPTAIN MILLER -Teaser | Dhanush | Shivarajkumar, Sundeep Kishan, Priyanka Mohan | Arun Matheswaran
+            </p>
+        
+            <p class="channel">
+              Sathya Jyothi Films
+            </p>
+        
+            <p class="reach">
+              23,252,066 views &middot; 2 days ago 
+            </p>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+      <div class="video1">
+  
+        <div class="thumb" > <img class="thumbimg" src="thumbnail/img4.webp"> </div>
+  
+        <div class="video-info">
+          <div class="pic">
+            <img class="prof" src="profiles/jailer.jpg">
+          </div>
+          <div class="desc">
+            <p class="info">
+              JAILER - Hukum Lyrical (Telugu) | Superstar Rajinikanth | Sun Pictures | Anirudh | Nelson 
+            </p>
+        
+            <p class="channel">
+              Gemini TV
+            </p>
+        
+            <p class="reach">
+              61,736 views &middot;3 hours ago 
+            </p>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+  
+      <div class="video1">
+  
+        <div class="thumb" > <img class="thumbimg" src="thumbnail/img3.webp"> </div>
+  
+        <div class="video-info">
+          <div class="pic">
+            <img class="prof" src="profiles/profile1.jpg">
+          </div>
+          <div class="desc">
+            <p class="info">
+              LEO - Naa Ready Lyric Video | Thalapathy Vijay | Lokesh Kanagaraj | Anirudh Ravichander 
+            </p>
+        
+            <p class="channel">
+              Sony Music South
+            </p>
+        
+            <p class="reach">
+              81,429,891 views &middot;1 month ago 
+            </p>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+      <div class="video1">
+  
+        <div class="thumb" > <img class="thumbimg" src="thumbnail/img2.webp"> </div>
+  
+        <div class="video-info">
+          <div class="pic">
+            <img class="prof" src="profiles/profile1.jpg">
+          </div>
+          <div class="desc">
+            <p class="info">
+              VIKRAM - Porkanda Singam Lyric | Kamal Haasan | Vijay Sethupathi | Lokesh Kanagaraj | Anirudh 
+            </p>
+        
+            <p class="channel">
+              Sony Music South
+            </p>
+        
+            <p class="reach">
+              26,034,292 views &middot;1 year ago 
+            </p>
+          </div>
+        </div>
+  
+      </div>
+  
+  
+      <div class="video1">
+  
+        <div class="thumb" > <img class="thumbimg" src="thumbnail/img1.webp"> </div>
+  
+        <div class="video-info">
+          <div class="pic">
+            <img class="prof" src="profiles/profile1.jpg">
+          </div>
+          <div class="desc">
+            <p class="info">
+              LEO - Glimpse of Antony Das | Thalapathy Vijay | Lokesh Kanagaraj | Anirudh Ravichander
+            </p>
+        
+            <p class="channel">
+              Sony Music South
+            </p>
+        
+            <p class="reach">
+              3M views &middot; 6 hours ago 
+            </p>
+          </div>
+        </div>
+  
+      </div>
+
+    </div>
+    
+
+  </body>
+</htm>
